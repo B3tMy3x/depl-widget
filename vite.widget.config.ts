@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/widget/',
+  base: '/depl-widget/',
+  server: {
+    open: true,
+  },
   build: {
     lib: {
       entry: 'src/widget/index.ts',

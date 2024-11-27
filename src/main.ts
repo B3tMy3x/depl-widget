@@ -1,4 +1,5 @@
-import './style.css';
-import ChatbotWidget from './widget';
+import ChatbotWidget from './widget/index';
 
-new ChatbotWidget();
+document.addEventListener('DOMContentLoaded', () => {
+  new ChatbotWidget();
+});
