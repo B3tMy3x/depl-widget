@@ -11,7 +11,7 @@ var m=Object.defineProperty;var u=(a,e,t)=>e in a?m(a,e,{enumerable:!0,configura
       </div>
     `,e}createChatContainer(){const e=document.createElement("div");e.className="chatbot-container";const t=this.createChatHeader();this.contentElement=this.createChatContent();const n=this.createInputContainer();return e.appendChild(t),e.appendChild(this.contentElement),e.appendChild(n),e}createChatHeader(){const e=document.createElement("div");return e.className="chatbot-header",e.innerHTML=`
       <div class="chatbot-header-info">
-        <img width="96" src="public/Qubit-21.png">
+        <img width="96" src="https://b3tmy3x.github.io/depl-widget/Qubit-21.png">
         <div>
           <h3>Виртуальный помощник</h3>
           <span class="chatbot-status">
